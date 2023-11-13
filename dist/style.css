@@ -1,0 +1,18 @@
+html, body, #viewDiv{
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.esri-view .esri-directions {
+  background-color: white;
+  position: fixed;
+  right: 15px;
+  max-height: calc(100% - 45px) !important;
+}
+
+.esri-view .esri-component.esri-attribution {
+  position: fixed;
+}
